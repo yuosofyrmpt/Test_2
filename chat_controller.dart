@@ -44,7 +44,11 @@ class ChatController extends GetxController {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['pdf'],
+
+
     );
+
+    if (10e ldkjfl;sakjf)
 
     if (result != null && result.files.isNotEmpty) {
       File file = File(result.files.single.path!);
